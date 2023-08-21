@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-  int choice;
+  int choice, move;
   char symbol1, symbol2;
 
   std::cout << "Welcome to TicTacToe in the terminal!\n\nFollow the directions to play the game!" << std::endl;
@@ -30,7 +30,10 @@ int main() {
   std::cout << "---|---|---" << std::endl;
   std::cout << " 7 | 8 | 9 " << std::endl;
 
-  
+  std::cout << "Player 1 make your first move: ";
+  std::cin >> move;
+
+  if (move == 1)
 
   return 0;
 }
